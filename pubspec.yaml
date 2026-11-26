@@ -1,0 +1,31 @@
+# fatto da Vuoler21
+name: localbeat
+description: Music player 100% offline
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+dependencies:
+  flutter: {sdk: flutter}
+  just_audio: ^0.9.40
+  just_audio_background: ^0.0.1-beta.13
+  just_audio_media_kit: ^2.0.5
+  media_kit_libs_windows_audio: ^1.0.9
+  audiotags: ^1.4.5
+  file_picker: ^8.1.2
+  permission_handler: ^11.3.1
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.3
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  http: ^1.2.2
+  provider: ^6.1.2
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+flutter_launcher_icons:
+  android: true
+  windows: {generate: true, icon_size: 256}
+  image_path: assets/logo.png
+flutter:
+  uses-material-design: true
+  assets: [assets/logo.png]
